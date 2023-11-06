@@ -1,0 +1,289 @@
+@media screen and (max-width: 1300px) {
+    .container{
+        max-width: 340px;
+
+        justify-content: space-between;
+        align-items: center;  
+    }
+
+    nav,footer,.menu-content-button{
+        display: none;
+    } 
+
+    .footer-content{
+        display: none;
+    } 
+
+    .number{
+        color: #FFFFFF;
+    }
+
+    .menu,.hero,.project,.online-control,.types,.fanatsies,.contacts{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    }
+
+    .logo{
+        margin-right: 56px;
+    }
+
+    .hero{
+        height: 376px;
+        padding-top: 78px;
+    }
+
+    .hero-content{
+        display: column;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .title{
+        font-size: 1.5em;        
+        line-height: 30px;
+    }
+
+    .hero-subtitle{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .hero-button{
+        width: 100%;
+        margin-top:32px;
+    }
+
+    .project{
+        height: 1500px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-cities,.project-image,.project-symbols,.project-subtitle br{
+        display: none;
+    }
+
+    .project-complited-left{
+        margin-left: 0;  
+    }
+
+    .project-title{
+        text-align: center;
+        margin-top: 36px;
+    }
+
+    .project-subtitle{
+        text-align: center;
+        margin-top: 22px;
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 36px;
+    }
+
+    .slider-mobil{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 36px;
+        justify-content: center; 
+    }
+
+    .img-slider-mobil {
+        width: 100%;
+        position: relative;
+    }
+
+    .slider-arrow-right {
+        position: relative;
+        right: 55px;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .slider-arrow-left {
+        position: relative;
+        left: 50px;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .online-control{
+        margin-top: -840px;
+    }
+
+    .online-control-text br,.online-control-leave-your-info{
+        display: none;
+    }
+
+    .online-control-title3{
+        margin-top: 58px;
+    }
+
+    .online-control-wrapper{
+        width: 100%;
+        height: 207px;
+        background-size: 100%;
+        margin-left: auto;
+        margin-bottom: 28px;
+    }
+
+    .online-control-play-mobil{
+        height: 37px;
+        width: 37px;
+    }
+
+    .online-control-text{
+        color: #FFFFFF;
+        width: 340px;
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .online-control-leave-your-info-mobil{
+        display: flex;
+        margin: 0;    
+    }
+
+    .online-control-control-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color:#FFFFFF;
+    }
+
+    .online-control-input-item{
+        margin-top:63px;
+        width: 100%;         
+    }
+
+    .online-control-input{
+        background: #131313;
+        color:#FFFFFF;
+        border-bottom: 1px solid rgba(255, 255, 255);
+    }
+
+    .online-control-input-item2{
+        display: flex;
+        justify-content: left;
+        margin-top: 26px;
+        margin-bottom: 32px;
+    }
+
+    .online-control-button{
+        width: 100%;
+    }
+
+    .types{
+        margin-top: 0;
+        height: 1330px;
+    }
+ 
+    .types-footer{
+        display: none;
+    }
+
+    .types-suite{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+ 
+    .types-images img{
+        width: 340px;
+        height: 365px;
+    }
+     
+    .types-suite-box{
+        margin-bottom: 59px;
+    }
+
+    .types-textbox{
+       margin-left: 0;
+       margin-top: -210px;
+       width: 80%;
+    }
+
+    .fanatsies{
+        margin-top:0px;
+    }
+
+    .fantasies-text-list,.fantasies-overley,.fantasies-images-list-image{
+        display: none;
+    }
+
+
+    .container-fantasies{
+        background-image: none;
+        position: relative;
+        justify-content: center;
+    }
+
+    .fantasies-content{
+        flex-direction: column;
+        height: 510px;
+        margin: 0;
+        align-items: center;
+    }
+    
+    .fantasies-text{
+        margin: 165px 0px 24px;
+        text-align: center;
+    }
+
+    .clients{
+        display: none;
+    }
+
+    .contacts{
+        height: 1245px;        
+        background: #181818;
+        text-align: center;
+        margin-top: -300px;
+    }
+    
+    .container-contacts{
+        background: none;   
+        padding-top: 200px;  
+    }
+
+    .contacts-overley,.contats-leave-your-info,.contacts-botom{
+        display: none;
+    }
+
+    .contacts-content{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .contats-leave-your-info-mobil{
+        display:flex; 
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .contacts-botom-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts-title2-mobile{
+        margin-top: 42px;
+        margin-bottom: 24px;
+    }
+
+    .contact-symbols{
+        margin: 0 auto;
+    }   
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 340px;
+    }
+}
